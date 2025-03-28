@@ -116,30 +116,51 @@
 
 //! difficult pattern
 
-#include <bits/stdc++.h>
-using namespace std;
-int main()
-{
-    int n;
-    cin >> n;
-    for (int i = 1; i <= 2 * n - 1; i++)
-    {
-        int star = i;
-        int spaces = 2 * n - 2
-        if (i > n)
-            2 * n - i;
-        //    star
-        for (int j = 1; j <= star; j++)
-        {
-            cout << "*";
-        }
-        //    space
-        for (int j = 1; j <= spaces; j++){
-            cout << " ";
-        }
-        // star
-        for(int j = 1; j <= star; j++){
-            cout << "*";
-        }
-    }
-}
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     int spaces = 2 * n - 2;
+//     for (int i = 1; i <= 2 * n - 1; i++)
+//     {
+//         int star = i;
+//         if (i > n) star = 2 * n - i;
+//         //    star
+//         for (int j = 1; j <= star; j++)
+//         {
+//             cout << "*";
+//         }
+//         //    space
+//         for (int j = 1; j <= spaces; j++)
+//         {
+//             cout << " ";
+//         }
+//         // star
+//         for (int j = 1; j <= star; j++)
+//         {
+//             cout << "*";
+//         }
+//         cout << endl;
+//         if (i < n)
+//             spaces -= 2;
+//         else
+//             spaces += 2;
+//     }
+// }
+
+//! number pattern
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin >> n;
+//     int num = 4;
+//     for(int i = 0; i < 2 * n - 1; i++){
+//        for(int j = 0; j < 2 * n - 1; j++){
+//         int top = 
+//        }
+//     }
+// }
