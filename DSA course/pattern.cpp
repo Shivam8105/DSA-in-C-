@@ -99,15 +99,35 @@
 //     int n;
 //     cin >> n;
 //     // spaces
-//     for (int i = 1; i <= 5; i--)
+//     for (int i = 1; i <= n; i++)
 //     {
-//         for (int j = 1; j <= i; j++)
+//         for (int j = 1; j <= n - i; j++)
 //         {
 //             cout << " ";
 //         }
 //         // star
 //         for (int j = 1; j <= 2 * i - 1; j++)
 //         {
+//             cout << "*";
+//         }
+//         cout << endl;
+//     }
+// }
+
+//! reverse pyramid
+
+// #include <bits/stdc++.h>
+// using namespace std;
+// int main(){
+//     int n;
+//     cin >> n;
+//     for(int i = n; i > 0; i--){
+//         // spaces
+//         for(int j = n - i; j > 0; j--){
+//             cout << " ";
+//         }
+//         // star
+//         for(int j = 2 * i - 1; j > 0; j--){
 //             cout << "*";
 //         }
 //         cout << endl;
@@ -164,3 +184,6 @@
 //        }
 //     }
 // }
+
+
+//! 
